@@ -13,18 +13,23 @@ const AboutSection = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           About Me
         </h2>
-        
+
         <div className="glass rounded-xl p-8 md:p-12">
           <p className="text-lg text-gray-200 mb-6 leading-relaxed">
-            I'm a final-year undergraduate passionate about translating biological data into intelligent systems. 
-            I combine machine learning, web development, and statistics to solve problems that matter — from 
-            Alzheimer's research to genomic tools.
+            I’m a final-year Bioinformatics undergraduate passionate about 
+            building intelligent systems that bridge biology and technology. 
+            My journey spans wet-lab research at BHU on autophagy in 
+            <i>Drosophila</i>, to developing ML models at iNeuron.ai, and 
+            contributing to open-source projects at OpenDev Collective.
           </p>
-          
+
           <p className="text-lg text-gray-200 mb-8 leading-relaxed">
-            My journey spans from competitive table tennis (state-level champion) to leading NSS initiatives 
-            in rural villages, and from building bioinformatics dashboards to exploring the latest in ML research. 
-            Inspired by my brother's user-testing journey and driven by curiosity about tech innovation.
+            Alongside research and development, I’ve engineered scalable 
+            web applications, curated bioinformatics dashboards, and built 
+            pipelines that integrate tools like FastQC, BWA, and GATK. 
+            Beyond tech, I’ve been a silver medalist in inter-college 
+            table tennis, an esports champion, and an active leader in 
+            community initiatives through NSS.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
@@ -32,22 +37,22 @@ const AboutSection = () => {
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/20 flex items-center justify-center">
                 <span className="text-primary text-lg font-bold">★</span>
               </div>
-              <h3 className="font-semibold text-primary">State Champion</h3>
-              <p className="text-sm text-gray-400">Table Tennis</p>
+              <h3 className="font-semibold text-primary">Hackathon Semi-finalist</h3>
+              <p className="text-sm text-gray-400">Novartis Biotech Leadership Camp</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/20 flex items-center justify-center">
                 <span className="text-primary text-lg font-bold">◈</span>
               </div>
-              <h3 className="font-semibold text-primary">Research Focus</h3>
-              <p className="text-sm text-gray-400">Alzheimer's & Genomics</p>
+              <h3 className="font-semibold text-primary">Research & ML</h3>
+              <p className="text-sm text-gray-400">BHU, iNeuron.ai, OpenDev</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/20 flex items-center justify-center">
                 <span className="text-primary text-lg font-bold">▲</span>
               </div>
-              <h3 className="font-semibold text-primary">NSS Leader</h3>
-              <p className="text-sm text-gray-400">Community Service</p>
+              <h3 className="font-semibold text-primary">Athletics & Leadership</h3>
+              <p className="text-sm text-gray-400">Table Tennis, NSS, Esports</p>
             </div>
           </div>
         </div>
