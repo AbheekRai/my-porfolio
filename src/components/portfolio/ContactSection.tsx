@@ -70,7 +70,7 @@ const ContactSection = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <Mail className="w-5 h-5 text-primary" />
-                    <span>abheek.rai@example.com</span>
+                    <span>abheek.2004@gmail.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <Github className="w-5 h-5 text-primary" />
@@ -112,7 +112,7 @@ const ContactSection = () => {
               <CardContent className="p-6">
                 <h3 className="font-semibold mb-2 text-primary">Current Status</h3>
                 <p className="text-gray-300 text-sm">
-                  ◯ Actively seeking FAANG opportunities and exciting internships. 
+                  ◯ Actively seeking opportunities and exciting internships. 
                   Open to discussing bioinformatics projects, ML collaborations, and full-stack development roles.
                 </p>
               </CardContent>
