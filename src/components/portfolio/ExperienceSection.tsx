@@ -4,41 +4,54 @@ import { Download } from "lucide-react";
 
 const ExperienceSection = () => {
   const experiences = [
+     {
+      title: "Banaras Hindu University (BHU)",
+      role: "Research Intern – Biochemistry Dept.",
+      period: "May 2025 – Jul 2025",
+      description:
+        "Conducted lab experiments with Drosophila to study autophagy. Performed in-silico protein-ligand analysis with AutoDock and Chimera.",
+      highlights: ["Molecular Biology", "In-silico Analysis", "Protein-Ligand Interactions"],
+    },
+
     {
-      title: "Freelancer",
-      role: "Web Developer",
-      period: "2023 - Present",
-      description: "Responsive design, Git workflows, client-first thinking. Built custom web solutions for various clients.",
-      highlights: ["Responsive Design", "Client Communication", "Git Workflows"]
+      title: "iNeuron.ai",
+      role: "Machine Learning Intern",
+      period: "Jul 2024 – Dec 2024",
+      description:
+        "Developed and optimized machine learning models in Python and R for data preprocessing, evaluation, and visualization. Improved processing time by 40% and model accuracy by 15%.",
+      highlights: ["scikit-learn", "Python & R", "Data Analysis", "Model Optimization"],
     },
     {
-      title: "Prodigy Infotech",
-      role: "Data Science Intern",
-      period: "2024",
-      description: "Decision trees, geospatial plots, sentiment models. Developed ML models for data analysis and visualization.",
-      highlights: ["Machine Learning", "Data Visualization", "Statistical Analysis"]
+      title: "OpenDev Collective",
+      role: "Contributing Developer (Open Source)",
+      period: "Mar 2024 – Present",
+      description:
+        "Refactored React codebase for a task automation tool, reducing bundle size by 30%. Implemented CI/CD pipelines with GitHub Actions and Docker.",
+      highlights: ["React", "CI/CD", "Docker", "Open Source Contributions"],
     },
     {
-      title: "NSS Secretary",
-      role: "Community Leader",
-      period: "2023 - 2024",
-      description: "Led BISA village survey initiative. Ground-level data collection & social awareness programs.",
-      highlights: ["Leadership", "Data Collection", "Social Impact"]
+      title: "National Service Scheme (NSS)",
+      role: "Secretary / Community Leader",
+      period: "2023 – Present",
+      description:
+        "Led a team of 20+ for rural outreach programs, impacting 150+ residents. Coordinated surveys, health initiatives, and awareness programs.",
+      highlights: ["Leadership", "Community Service", "Team Management"],
     },
     {
-      title: "BiBT Club Synapse",
+      title: "BI-BT Club Synapse",
       role: "Sponsorship Lead",
       period: "2023",
-      description: "Managed sponsorships and partnerships for bioinformatics club events and workshops.",
-      highlights: ["Partnership Management", "Event Organization", "Networking"]
-    }
+      description:
+        "Managed sponsorships and partnerships for bioinformatics club events and workshops.",
+      highlights: ["Event Management", "Partnerships", "Networking"],
+    },
   ];
 
   const achievements = [
-    "★ Winner @ Parakram 2023 Table Tennis",
-    "◆ iCBAB Conference 2023 Participant",
-    "◯ State-level Table Tennis Champion",
-    "▲ NSS Village Survey Leader"
+    "★ Semi-finalist @ Novartis Biotech Leadership Camp (500+ teams)",
+    "◆ Delivered scalable SaaS-style web solutions (React + Django)",
+    "◯ Silver Medalist @ Inter-College Table Tennis & State-level Champion",
+    "▲ Led initiatives that reached and supported 150+ rural residents",
   ];
 
   return (
@@ -55,7 +68,7 @@ const ExperienceSection = () => {
             Experience & Achievements
           </h2>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            My journey through internships, leadership roles, and notable achievements
+            My journey through internships, open-source contributions, leadership roles, and achievements
           </p>
         </motion.div>
 
@@ -118,7 +131,7 @@ const ExperienceSection = () => {
                   </motion.div>
                 ))}
               </div>
-              
+
               <div className="mt-8 pt-6 border-t border-white/10">
                 <h4 className="font-semibold mb-4">Resume</h4>
                 <p className="text-gray-400 text-sm mb-4">
