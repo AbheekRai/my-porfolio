@@ -84,29 +84,55 @@ const ContactSection = () => {
               </CardContent>
             </Card>
 
-            <Card className="glass glass-hover">
-              <CardContent className="p-6">
-                <h3 className="font-semibold mb-4 text-primary">Quick Links</h3>
-                <div className="grid grid-cols-2 gap-4">
-                  <Button variant="outline" size="sm">
-                    <Github className="w-4 h-4 mr-2" />
-                    GitHub
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    <Linkedin className="w-4 h-4 mr-2" />
-                    LinkedIn
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    <Mail className="w-4 h-4 mr-2" />
-                    Email
-                  </Button>
-                  <Button variant="outline" size="sm">
-                    <Download className="w-4 h-4 mr-2" />
-                    Resume
-                  </Button>
-                </div>
-              </CardContent>
-            </Card>
+           <Card className="glass glass-hover">
+  <CardContent className="p-6">
+    <h3 className="font-semibold mb-4 text-primary">Quick Links</h3>
+    <div className="grid grid-cols-2 gap-4">
+      <a
+        href="https://github.com/AbheekRai"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button variant="outline" size="sm" className="w-full">
+          <Github className="w-4 h-4 mr-2" />
+          GitHub
+        </Button>
+      </a>
+
+      <a
+        href="https://linkedin.com/in/abheek-rai"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button variant="outline" size="sm" className="w-full">
+          <Linkedin className="w-4 h-4 mr-2" />
+          LinkedIn
+        </Button>
+      </a>
+
+      <a href="mailto:abheek.2004@gmail.com">
+        <Button variant="outline" size="sm" className="w-full">
+          <Mail className="w-4 h-4 mr-2" />
+          Email
+        </Button>
+      </a>
+
+      <a
+        href="/resume.pdf"
+        download
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Button variant="outline" size="sm" className="w-full">
+          <Download className="w-4 h-4 mr-2" />
+          Resume
+        </Button>
+      </a>
+    </div>
+  </CardContent>
+</Card>
+
+
 
             <Card className="glass">
               <CardContent className="p-6">
