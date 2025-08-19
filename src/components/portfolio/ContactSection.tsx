@@ -118,7 +118,7 @@ const ContactSection = () => {
       </a>
 
       <a
-        href="/resume.pdf"
+        href="/updated_resume.pdf"
         download
         target="_blank"
         rel="noopener noreferrer"
