@@ -30,7 +30,7 @@ const HeroSection = () => {
         className="inline-block mb-4 px-4 py-1.5 rounded-full glass"
       >
         <span className="text-sm font-medium">
-          ◊ Bioinformatics + ML Enthusiast | Full-Stack Explorer
+          ◊ Bioinformatics + ML Enthusiast | Full-Stack Developer
         </span>
       </motion.div>
       
@@ -52,7 +52,7 @@ const HeroSection = () => {
         >
           Building intelligent tools at the intersection of biology, data, and design. 
           Final-year undergraduate passionate about translating biological data into intelligent systems.{" "}
-          <span className="text-white">Keen on cracking FAANG.</span>
+          <span className="text-white"></span>
         </motion.p>
         
         <motion.div
@@ -96,17 +96,19 @@ const HeroSection = () => {
 
       {/* Profile Image Placeholder */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.7 }}
-        className="relative mx-auto max-w-5xl mt-20"
-      >
-        <div className="glass rounded-xl overflow-hidden">
-          <div className="w-full h-96 bg-gradient-to-br from-primary/20 to-green-500/20 flex items-center justify-center">
-            <p className="text-gray-400">Profile Image Placeholder</p>
-          </div>
-        </div>
-      </motion.div>
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.7 }}
+  className="relative mx-auto max-w-5xl mt-20"
+>
+  <div className="glass rounded-xl overflow-hidden">
+    <img
+      src="/place.jpg"   
+      alt="Abheek Rai"
+      className="w-full h-96 object-cover"
+    />
+  </div>
+</motion.div>
     </motion.section>
   );
 };
