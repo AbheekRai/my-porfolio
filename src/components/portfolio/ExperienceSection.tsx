@@ -1,6 +1,17 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import { createLucideIcon } from "lucide-react";
+
+export const Reddit = createLucideIcon("Reddit", [
+  [
+    "path",
+    {
+      d: "M440.3 203.9c-15.5 0-28.3 12.8-28.3 28.3s12.8 28.3 28.3 28.3 28.3-12.8 28.3-28.3-12.8-28.3-28.3-28.3zM71.7 203.9c-15.5 0-28.3 12.8-28.3 28.3s12.8 28.3 28.3 28.3 28.3-12.8 28.3-28.3-12.8-28.3-28.3-28.3zm367.5 66.4c-11.4-7.9-26-12.4-42.4-12.4-8.2 0-16.6 1-25.1 3-27.4-19.5-66.5-31.5-108.6-31.5s-81.2 12-108.6 31.5c-8.5-2-16.9-3-25.1-3-16.4 0-31 4.5-42.4 12.4-12 8.4-18.7 19.8-18.7 32.1 0 41.5 61.1 75.3 136.2 77.2l-9.5 44.8c-.9 4.3 1.9 8.4 6.2 9.3 4.3.9 8.4-1.9 9.3-6.2l9.8-46.1c8.4.7 17 1.1 25.8 1.1s17.4-.4 25.8-1.1l9.8 46.1c.8 3.8 4.1 6.4 7.9 6.4.6 0 1.3-.1 1.9-.2 4.3-.9 7.1-5 6.2-9.3l-9.5-44.8c75.1-1.9 136.2-35.7 136.2-77.2 0-12.4-6.7-23.8-18.7-32.1zM256 330c-25.8 0-46.8-11.2-46.8-25s21-25 46.8-25 46.8 11.2 46.8 25-21 25-46.8 25z",
+    },
+  ],
+]);
+
 
 const ExperienceSection = () => {
   const experiences = [
@@ -133,18 +144,26 @@ const ExperienceSection = () => {
               </div>
 
               <div className="mt-8 pt-6 border-t border-white/10">
-  <h4 className="font-semibold mb-4 text-lg sm:text-xl">Resume</h4>
+  <h4 className="font-semibold mb-4 text-lg sm:text-xl">Reddit</h4>
   <p className="text-gray-400 text-sm sm:text-base mb-4 max-w-lg">
-    Download my complete resume with detailed experience and projects.
+    Check out my Reddit profile for discussions, insights, and my social activity.
   </p>
-  
+
   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-    <Button className="button-gradient w-full sm:w-auto flex items-center justify-center">
-      <Download className="mr-2 w-4 h-4" />
-      Download Resume (PDF)
-    </Button>
+    <a
+      href="https://www.reddit.com/user/your-username"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-full sm:w-auto"
+    >
+      <Button className="button-gradient w-full sm:w-auto flex items-center justify-center">
+        <Reddit className="mr-2 w-4 h-4" />
+        Visit My Reddit
+      </Button>
+    </a>
   </div>
 </div>
+
 
             </motion.div>
           </div>
