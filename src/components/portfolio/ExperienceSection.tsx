@@ -151,7 +151,7 @@ const ExperienceSection = () => {
 
   <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
     <a
-      href="https://www.reddit.com/user/your-username"
+      href="https://www.reddit.com/user/NSFW__Jinx69/"
       target="_blank"
       rel="noopener noreferrer"
       className="w-full sm:w-auto"
