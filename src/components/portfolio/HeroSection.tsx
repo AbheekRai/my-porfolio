@@ -108,7 +108,7 @@ const HeroSection = () => {
             </Button>
           </a>
         </motion.div>
-      </div> {/* <-- this was missing in your code */}
+      </div> {/* ✅ closes the max-w-4xl wrapper */}
 
       {/* Profile Image Placeholder */}
       <motion.div
