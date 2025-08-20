@@ -18,8 +18,7 @@ const AboutSection = () => {
           <p className="text-lg text-gray-200 mb-6 leading-relaxed">
             I’m a final-year Bioinformatics undergraduate passionate about 
             building intelligent systems that bridge biology and technology. 
-            My journey spans wet-lab research at BHU on autophagy in 
-            <i>Drosophila</i>, to developing ML models at iNeuron.ai, and 
+            My journey spans wet-lab research at BHU on autophagy in Drosophila, to developing ML models at iNeuron.ai, and 
             contributing to open-source projects at OpenDev Collective.
           </p>
 
@@ -37,8 +36,8 @@ const AboutSection = () => {
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/20 flex items-center justify-center">
                 <span className="text-primary text-lg font-bold">★</span>
               </div>
-              <h3 className="font-semibold text-primary">Hackathon Semi-finalist</h3>
-              <p className="text-sm text-gray-400">Novartis Biotech Leadership Camp</p>
+              <h3 className="font-semibold text-primary">Open Source & Development</h3>
+              <p className="text-sm text-gray-400">OpenDev, Web Apps, CI/CD</p>
             </div>
             <div className="text-center">
               <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/20 flex items-center justify-center">

@@ -133,15 +133,19 @@ const ExperienceSection = () => {
               </div>
 
               <div className="mt-8 pt-6 border-t border-white/10">
-                <h4 className="font-semibold mb-4">Resume</h4>
-                <p className="text-gray-400 text-sm mb-4">
-                  Download my complete resume with detailed experience and projects.
-                </p>
-                <Button className="button-gradient w-full">
-                  <Download className="mr-2 w-4 h-4" />
-                  Download Resume (PDF)
-                </Button>
-              </div>
+  <h4 className="font-semibold mb-4 text-lg sm:text-xl">Resume</h4>
+  <p className="text-gray-400 text-sm sm:text-base mb-4 max-w-lg">
+    Download my complete resume with detailed experience and projects.
+  </p>
+  
+  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+    <Button className="button-gradient w-full sm:w-auto flex items-center justify-center">
+      <Download className="mr-2 w-4 h-4" />
+      Download Resume (PDF)
+    </Button>
+  </div>
+</div>
+
             </motion.div>
           </div>
         </div>

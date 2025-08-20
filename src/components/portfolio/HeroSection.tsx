@@ -75,24 +75,43 @@ const HeroSection = () => {
           </Button>
         </motion.div>
 
-        {/* Social Links */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.6 }}
-          className="flex gap-4"
-        >
-          <Button variant="ghost" size="icon" className="glass">
-            <Github className="w-5 h-5" />
-          </Button>
-          <Button variant="ghost" size="icon" className="glass">
-            <Linkedin className="w-5 h-5" />
-          </Button>
-          <Button variant="ghost" size="icon" className="glass">
-            <Mail className="w-5 h-5" />
-          </Button>
-        </motion.div>
-      </div>
+       {/* Social Links */}
+<motion.div
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.6 }}
+  className="flex gap-4"
+>
+  {/* GitHub */}
+  <a
+    href="https://github.com/AbheekRai"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="glass">
+      <Github className="w-5 h-5" />
+    </Button>
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/abheekrai/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <Button variant="ghost" size="icon" className="glass">
+      <Linkedin className="w-5 h-5" />
+    </Button>
+  </a>
+
+  {/* Email */}
+  <a href="mailto:abheek.2004@gmail.com">
+    <Button variant="ghost" size="icon" className="glass">
+      <Mail className="w-5 h-5" />
+    </Button>
+  </a>
+</motion.div>
+
 
       {/* Profile Image Placeholder */}
       <motion.div
