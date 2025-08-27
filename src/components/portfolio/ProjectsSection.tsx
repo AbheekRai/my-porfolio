@@ -6,13 +6,14 @@ import { Github, ArrowRight } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Genomic Variant Interpretation Assistant (GenVIA)",
-      year: "2025",
-      description: "AI-powered assistant that annotates VCF files, scores pathogenicity, and provides variant interpretation using ClinVar, dbSNP, and curated databases with NLP-driven clinical significance prediction.",
-      tech: ["Flask", "VEP", "spaCy", "BioBERT", "PubTator API", "PostgreSQL"],
-      github: "#",
-      demo: "#"
-    },
+  title: "CryptoStake – Betting & Gambling Demo App",
+  year: "2025",
+  description: "A demo web app for crypto-based betting and gambling with wallet integration, live odds, and secure stake management. Features real-time game simulations, user leaderboards, and transaction tracking.",
+  tech: ["TypeScript", "Vite", "React", "TailwindCSS", "Node.js"],
+  github: "#",
+  demo: "#"
+}
+,
     {
       title: "AI-Based Alzheimer's Research Database",
       year: "2024",
@@ -46,13 +47,14 @@ const ProjectsSection = () => {
       demo: "#"
     },
     {
-      title: "Sentiment Analysis Dashboard",
-      year: "2024",
-      description: "ML-powered sentiment analysis with geospatial visualization and real-time data processing for comprehensive social media monitoring.",
-      tech: ["Python", "Scikit-learn", "Plotly", "Streamlit"],
-      github: "#",
-      demo: "#"
-    }
+  title: "AI-Powered Healthcare Assistant",
+  year: "2025",
+  description: "An intelligent healthcare web app that analyzes patient symptoms and medical history to suggest possible conditions. Integrates AI-driven symptom checker, medical knowledge bases, and provides insights for early diagnosis and treatment recommendations.",
+  tech: ["TypeScript", "Next.js", "TailwindCSS", "Flask", "TensorFlow", "spaCy", "PostgreSQL"],
+  github: "#",
+  demo: "#"
+}
+
   ];
 
   return (
