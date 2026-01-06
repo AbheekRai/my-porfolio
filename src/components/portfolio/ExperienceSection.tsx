@@ -26,11 +26,11 @@ const ExperienceSection = () => {
 
     {
       title: "iNeuron.ai",
-      role: "Machine Learning Intern",
+      role: "Intern",
       period: "Jul 2024 – Dec 2024",
       description:
-        "Developed and optimized machine learning models in Python and R for data preprocessing, evaluation, and visualization. Improved processing time by 40% and model accuracy by 15%.",
-      highlights: ["scikit-learn", "Python & R", "Data Analysis", "Model Optimization"],
+        "Built and optimized backend data-processing workflows with a focus on performance, data consistency, and reliable API outputs for analytics-driven systems.",
+      highlights: ["REST APIs", "Python & R", "SQL", "Model Optimization"],
     },
     {
       title: "OpenDev Collective",
